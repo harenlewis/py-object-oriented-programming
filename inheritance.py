@@ -1,3 +1,26 @@
+"""
+Types of inheritance
+  - Single
+  - Multiple
+  - Multilevel
+  - Hierachial
+  
+super()
+to call parent class methods in child 
+
+issubclass(class, )
+check is class is child of a parent
+
+isinstance()
+check if object is instance of a particular class
+
+Method overriding
+Override parent class method - DRF APIView - override get req method
+
+Method Order resolution MRO
+C.mro()
+[<class '__main__.C'>, <class '__main__.B'>, <class '__main__.A'>, <class 'object'>]
+"""
 
 class Employee:
 
@@ -41,11 +64,6 @@ class Employee:
         pass
         # print("Delting employee {} ....".format(self.name))
 
-
-"""
-
-
-"""
 
 class Developer(Employee):
     number_of_leaves = 21
