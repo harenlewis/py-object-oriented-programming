@@ -1,5 +1,9 @@
 """
+from ab import ABC, abstractmethod
+hiding implementation detals
 
+we cannot instantiate abstract classes
+in python it will give typerror
 """
 
 from abc import ABC, abstractmethod
